@@ -1,23 +1,23 @@
-window.onload = function() {
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        // generate a five digit number for the contact_number variable
-        // this.contact_number.value = Math.random() * 100000 | 0;
-        // these IDs from the previous steps
+// window.onload = function() {
+//     document.getElementById('contact-form').addEventListener('submit', function(event) {
+//         event.preventDefault();
+//         // generate a five digit number for the contact_number variable
+//         // this.contact_number.value = Math.random() * 100000 | 0;
+//         // these IDs from the previous steps
         
-            var name = document.getElementById('name').value
-            var email = document.getElementById('email').value
-            var message = document.getElementById('message').value
+//             var name = document.getElementById('name').value
+//             var email = document.getElementById('email').value
+//             var message = document.getElementById('message').value
         
-        emailjs.sendForm('service_hi6jzto', 'template_odwkvhj', '#contact-form')
-            .then(function(response) {
-                console.log('SUCCESS!', response.status, response.text);
-                console.log(name)
-            }, function(error) {
-                console.log('FAILED...', error);
-            });
-    });
-}
+//         emailjs.sendForm('service_hi6jzto', 'template_odwkvhj', '#contact-form')
+//             .then(function(response) {
+//                 console.log('SUCCESS!', response.status, response.text);
+//                 console.log(name)
+//             }, function(error) {
+//                 console.log('FAILED...', error);
+//             });
+//     });
+// }
 
 //EmailJS Password: Test@123
 const navSide = () =>{
