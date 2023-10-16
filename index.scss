@@ -87,6 +87,7 @@ nav{
   
 .hero{
     height: 100vh;
+    min-height: 100%;
     width: 100%;
     background: url(./assets/BS-bg.png);
     background-size: cover;
@@ -115,7 +116,7 @@ nav{
         }
         .client-wrapper{
             margin-top: 100px;
-
+    
             h4{
                 margin-bottom: 8px;
             }
@@ -123,9 +124,20 @@ nav{
                 border-top: #006837 2px solid;
                 padding-top: 32px;
                 display: flex;
-                width: 50%;
+                width: 70%;
+                
                 align-items: center;
                 justify-content: space-between;
+                
+
+                .client{
+                    height: 50px;
+                    
+                    img{
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
             }
         }
     }
@@ -137,11 +149,12 @@ nav{
 .about-us{
     background-color: #D7F0DB;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-
+    overflow-x: hidden;
     .content{
         width: 60%;
+        padding: 10% 0%;
         h1{
             font-size: 72px;
             margin-bottom: 16px;
@@ -155,11 +168,15 @@ nav{
         }
     }
     .image{
-        
+        height: 850px;
+        overflow: hidden;
         width: 40%;
-        img{
-            width: 100%;
-        }
+        background: pink;
+       img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+       }
     }
 }
 .vision{
@@ -270,39 +287,51 @@ nav{
         
     }
     .mockups{
-        display: flex;
-        margin-top: 16px;
-        .img-1{
-            width: 60%;
-            padding-right: 8px;
-            img{
-                width: 100%;
-                min-height: 100%;
+        margin-top: 10px;
+       overflow: hidden;
+       position: relative;
+       #myVideo{
+        width: 100%;
+       }
+       .btn-wrapper{
+        width: 100%;
+        padding: 20px;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        z-index: 10;
+        background-color: #222222;
+            button{
+                padding: 8px 20px;
+                border: none;
+                outline: none;
+                border-radius: 8px;
+                font-family: poppins;
+                font-weight: 800;
             }
-        }
-        .img-2{
-            width: 40%;
-            padding-left:8px;
-            img{
-                width: 100%;
-                min-height: 100%;
-            }
-        }
+       }
+        
     }
+
 }
 
 
 .partners{
     padding: 48px 0px;
     .profiles{
-        display: flex;
+        margin: 10px 0px;
+        display: grid;
+        grid-template-columns: auto auto;
         align-items: stretch;
         justify-content: space-between;
-        margin: 16px 0px;
+        gap: 16px;
         .profile{
             padding: 16px;
             width: 100%;
-            margin: 8px;
+          
+            img{
+                height: 50px;
+            }
             p{
                 margin-top: 16px;
                 font-family: poppins;
@@ -318,6 +347,9 @@ nav{
         }
         .p3{
             background-color: #EBEBF5;
+        }
+        .p4{
+            background-color: #d1ffd4;
         }
     }
     .value-add{
@@ -445,6 +477,7 @@ nav{
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
             line-height: 64px;
+            font-size: 48px;
         }
         p{
             font-size: 16px;
@@ -663,25 +696,30 @@ nav{
             
         }
         .mockups{
-            display: flex;
-            flex-direction: column;
-            margin-top: 16px;
-            .img-1{
-                width: 100%;
-                padding-right: 0px;
-                img{
-                    width: 100%;
-                    min-height: 100%;
+            margin-top: 10px;
+           overflow: hidden;
+           position: relative;
+           #myVideo{
+            width: 100%;
+           }
+           .btn-wrapper{
+            width: 100%;
+            padding:10px;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            z-index: 10;
+            background-color: #222222;
+                button{
+                    padding: 8px 20px;
+                    border: none;
+                    outline: none;
+                    border-radius: 8px;
+                    font-family: poppins;
+                    font-weight: 800;
                 }
-            }
-            .img-2{
-                width: 100%;
-                padding-left:0px;
-                img{
-                    width: 100%;
-                    min-height: 100%;
-                }
-            }
+           }
+            
         }
     }
     .management{

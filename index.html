@@ -54,6 +54,9 @@
                     <div class="client">
                         <img src="./assets/vsi.png" alt="">
                     </div>
+                    <div class="client">
+                        <img src="./assets/ST light-01.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,7 +70,7 @@
                     with a vision of revolutionizing healthcare marketing by providing healthcare innovators with a
                      platform to effectively market their products and services.
                     <br><br>
-                    At BeeSouls, we envision complimenting healthcare innovators to do what they hate to do the most – 
+                    At BeeSouls, we envision complementing healthcare innovators to do what they hate to do the most – 
                     market their unique or patented or innovative products and services to small, medium, 
                     large domestic and international hospitals through healthcare technology product dealers.
                     <br><br>
@@ -79,7 +82,7 @@
             </div>
         </div>
         <div class="image">
-            <img src="./assets/about-img.png" alt="">
+            <img src="./assets/about-img-2.jpg" alt="">
         </div>
        
     </section>
@@ -210,12 +213,16 @@
                  <br><br>
                 Do you like our brand story? We would love to hear from you.</p>
             <div class="mockups">
-                <div class="img-1">
-                    <img src="./assets/img-1.png" alt="">
+                <video loop id="myVideo">
+                    <source src="./assets/BS-Audio-2.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                    
+
+                  </video>
+                <div class="btn-wrapper">
+                    <button id="myBtn" onclick="myFunction()">Play</button>
                 </div>
-                <div class="img-2">
-                    <img src="./assets/img-2.png" alt="">
-                </div>
+                  
             </div>
         </div>
     </section>
@@ -251,6 +258,13 @@
                </div>
                <div class="profile p3">
                 <img src="./assets/vsi.png" alt="">
+                <p>
+                    VoidStarIndia is a product engineering company in information technology. 
+                    VoidStarIndia is into cybersecurity, multimedia and computer vision.
+                </p>
+               </div>
+               <div class="profile p4">
+                <img src="./assets/ST light-01.svg" alt="">
                 <p>
                     VoidStarIndia is a product engineering company in information technology. 
                     VoidStarIndia is into cybersecurity, multimedia and computer vision.
@@ -365,7 +379,7 @@
                 </div>
                 <div class="number">
                     <p>WhatsApp us at </p>
-                    <h1>98336 90026</h1>
+                    <h1>85911 58594</h1>
                 </div>
             </div>
             <p style="margin-top: 16px; color: #006837;
@@ -378,5 +392,19 @@
         
     </section>
     <script src="./index.js"></script>
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
 </body>
 </html>
