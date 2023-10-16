@@ -1,1 +1,1067 @@
-*{box-sizing:border-box;padding:0;margin:0;scroll-behavior:smooth;font-family:"Raleway",sans-serif}p{font-family:"Poppins",sans-serif;text-align:justify}.container{width:80%;margin:auto}.contact-btn{padding:12px 30px;border-radius:5px;border:none;outline:none;font-size:16px;background-color:#f6edd9;font-weight:bold}nav{padding:16px;display:flex;background-color:#006837;justify-content:space-around;align-items:center;position:fixed;width:100%;height:10vh;z-index:99999}nav .logo{color:#fff;display:flex;align-items:center}nav .logo .logo-h{height:10vh;margin-right:10px}nav .logo .logo-v{display:none}nav .logo p{font-size:16px;font-weight:bold}nav .nav-links{display:flex;width:60%;justify-content:space-around;align-items:center;list-style:none}nav .nav-links a{color:#fff;text-decoration:none;font-size:16px;font-weight:bold}nav .nav-links .active{border-bottom:2px solid #fff}nav .burger{display:none}nav .burger div{margin:8px 0px;border-radius:5px;width:35px;height:3px;background:#fff}.section{height:1000px;width:100%}.hero{height:100vh;min-height:100%;width:100%;background:url(./assets/BS-bg.png);background-size:cover;background-repeat:no-repeat;background-position:center}.hero .container{color:#006837;padding:10% 0%}.hero .container h1{font-size:48px;width:60%;font-weight:800;letter-spacing:1px}.hero .container p{width:50%;line-height:150%;text-align:justify;font-size:14px;margin-bottom:24px}.hero .container .proof{margin-top:36px}.hero .container .client-wrapper{margin-top:100px}.hero .container .client-wrapper h4{margin-bottom:8px}.hero .container .client-wrapper .clients{border-top:#006837 2px solid;padding-top:32px;display:flex;width:70%;align-items:center;justify-content:space-between}.hero .container .client-wrapper .clients .client{height:50px}.hero .container .client-wrapper .clients .client img{height:100%;-o-object-fit:contain;object-fit:contain}.hero .hero-date{font-family:"Montserrat",sans-serif}.about-us{background-color:#d7f0db;display:flex;align-items:flex-start;justify-content:space-between;overflow-x:hidden}.about-us .content{width:60%;padding:10% 0%}.about-us .content h1{font-size:72px;margin-bottom:16px;font-weight:800;letter-spacing:1px;color:#006837}.about-us .content p{font-family:poppins;text-align:justify}.about-us .image{height:850px;overflow:hidden;width:40%;background:pink}.about-us .image img{height:100%;width:100%;-o-object-fit:cover;object-fit:cover}.vision{padding:48px 0px}.vision img{width:100%;border-radius:8px}.vision .vis-mis{display:flex;align-items:start}.vision .vis-mis .vis{padding:16px;flex:1}.vision .vis-mis .vis h1{font-size:72px;font-weight:800;letter-spacing:1px;color:#006837}.vision .vis-mis .vis p{font-family:poppins}.management{background-color:#ebebf5;padding:48px 0px}.management h1{font-size:48px;margin-bottom:16px;font-weight:800;letter-spacing:1px;color:#67679b}.management .team-member{display:flex;align-items:center;padding:32px 0px;border-bottom:rgba(153,153,204,.1137254902) 2px solid}.management .team-member .m-image{padding:16px;display:flex;flex-direction:column}.management .team-member .m-image img{background-color:#99c;border-radius:16px}.management .team-member .m-image a{display:block;width:100%;text-decoration:none}.management .team-member .m-image .linkedin-btn{margin-top:8px;display:flex;align-items:center;justify-content:center;width:100%;background-color:#99c;padding:8px 16px;color:#fff;border-radius:8px;font-weight:700}.management .team-member .m-image .linkedin-btn i{font-size:24px;margin-right:8px}.management .team-member .m-info{padding:16px}.management .team-member .m-info h3{font-size:36px;margin-bottom:16px;font-weight:800;letter-spacing:1px}.management .team-member .m-info p{font-family:poppins}.brand-story{padding:48px 0px}.brand-story h1{font-size:72px;font-weight:800;letter-spacing:1px;color:#006837}.brand-story p{font-family:poppins}.brand-story .mockups{margin-top:10px;overflow:hidden;position:relative}.brand-story .mockups #myVideo{width:100%}.brand-story .mockups .btn-wrapper{width:100%;padding:20px;bottom:0;left:0;position:absolute;z-index:10;background-color:#222}.brand-story .mockups .btn-wrapper button{padding:8px 20px;border:none;outline:none;border-radius:8px;font-family:poppins;font-weight:800}.partners{padding:48px 0px}.partners .profiles{margin:10px 0px;display:grid;grid-template-columns:auto auto;align-items:stretch;justify-content:space-between;gap:16px}.partners .profiles .profile{padding:16px;width:100%}.partners .profiles .profile img{height:50px}.partners .profiles .profile p{margin-top:16px;font-family:poppins}.partners .profiles .p1{background-color:#ffd1cf}.partners .profiles .p2{background-color:#ffc8ad}.partners .profiles .p3{background-color:#ebebf5}.partners .profiles .p4{background-color:#d1ffd4}.partners .value-add{margin-top:32px}.partners .value-add h1{font-size:72px;margin-bottom:16px;font-weight:800;letter-spacing:1px;color:#006837}.partners .value-add .value-wrapper{display:flex}.partners .value-add .value-wrapper .info{width:60%;padding:16px}.partners .value-add .value-wrapper .value-img{width:40%}.partners .value-add .value-wrapper .value-img img{width:100%;height:300px;-o-object-fit:cover;object-fit:cover}.why{padding:48px 0px}.why h1{font-size:72px;margin-bottom:16px;font-weight:800;letter-spacing:1px;color:#006837}.why .grid-container{display:grid;grid-template-columns:auto auto auto;gap:16px}.why .grid-container div{padding:48px 16px;background-color:rgba(255,255,255,.8);text-align:center}.why .grid-container div h3{font-size:16px;font-family:poppins}.why .grid-container div img{-o-object-fit:contain;object-fit:contain;height:80px;width:80px}.why .grid-container div p{font-size:14px}.contact{background-color:#d7f0db;padding:100px 0px}.contact h1{font-size:72px;font-weight:900;color:#006837}.contact .contact-wrapper{display:grid;grid-template-columns:auto auto auto;gap:24px;margin-top:16px}.contact .contact-wrapper .contact-card{display:flex;align-items:center;padding:16px;border-right:#006837 2px solid}.contact .contact-wrapper .contact-card .con-image{width:30%;padding:16px}.contact .contact-wrapper .contact-card .con-image img{width:80px;height:80px;border-radius:50%;-o-object-fit:cover;object-fit:cover;background-color:#f6edd9}.contact .contact-wrapper .contact-card .con-info{padding-left:8px}.contact .contact-wrapper .contact-card .con-info a{color:#006837;font-size:16px;font-weight:800}.contact .whatsapp{margin-top:16px;padding-top:16px;border-top:#006837 2px solid;display:flex;align-items:center}.contact .whatsapp .whatsapp-img{height:100px;width:100px;margin-right:18px}.contact .whatsapp .whatsapp-img img{width:100%}.contact .whatsapp .number h1{font-family:"Poppins",sans-serif;font-weight:700;line-height:64px;font-size:48px}.contact .whatsapp .number p{font-size:16px;margin-left:8px;color:#006837;font-weight:600}.footer{background-color:#222;display:flex;align-items:center;justify-content:center;padding:16px}.footer p{color:#fff;font-size:16px}@media screen and (max-width: 991px){body{overflow-x:hidden}nav{position:relative;position:fixed;background:#006837;height:10vh;z-index:1}nav .logo p{display:none}nav .logo .logo-h{display:none}nav .logo .logo-v{display:block;height:10vh;margin-right:10px}nav .nav-links{display:none;background:#006837;position:absolute;right:0px;top:8vh;width:50%;height:92vh;flex-direction:column;transform:translateX(100%);transition:all .5s ease}nav .nav-links li{opacity:0}nav .nav-active{transform:translateX(0%);display:flex}nav .burger{display:block;cursor:pointer}nav .burger div{transition:all .5s ease}@keyframes navlinksFade{from{opacity:0;transform:translateX(50px)}to{opacity:1;transform:translateX(0px)}}nav .toggle .line1{transform:rotate(-45deg) translate(-5px, 10px)}nav .toggle .line2{opacity:0}nav .toggle .line3{transform:rotate(45deg) translate(-5px, -10px)}.container{width:95%}.hero{height:100vh;min-height:100%;padding-top:20%}.hero .container{width:95%}.hero .container h1{font-size:32px;width:100%}.hero .container p{margin-top:20px;font-size:14px;width:100%}.hero .container .client-wrapper{margin-top:100px}.hero .container .client-wrapper h4{margin-bottom:8px}.hero .container .client-wrapper .clients{border-top:#006837 2px solid;padding-top:32px;display:flex;width:100%;align-items:center;justify-content:space-between;flex-wrap:wrap}.hero .container .client-wrapper .clients .client{padding:8px}.about-us{background-color:#d7f0db;display:block;align-items:center;justify-content:space-between}.about-us .content{width:100%;padding-top:32px}.about-us .content h1{font-size:32px;margin-bottom:16px;font-weight:800;letter-spacing:1px;color:#006837}.about-us .content p{font-family:poppins;text-align:justify}.about-us .image{margin-top:16px;width:100%;height:50vh;overflow:hidden}.about-us .image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center}.vision{padding:48px 0px}.vision img{width:100%;border-radius:4px}.vision .vis-mis{display:flex;flex-direction:column;align-items:start}.vision .vis-mis .vis{padding:16px}.vision .vis-mis .vis h1{font-size:32px;font-weight:800;letter-spacing:1px;color:#006837}.vision .vis-mis .vis p{font-family:poppins;text-align:justify}.brand-story{padding:48px 0px}.brand-story h1{font-size:48px;font-weight:800;letter-spacing:1px;color:#006837}.brand-story p{font-family:poppins}.brand-story .mockups{margin-top:10px;overflow:hidden;position:relative}.brand-story .mockups #myVideo{width:100%}.brand-story .mockups .btn-wrapper{width:100%;padding:10px;bottom:0;left:0;position:absolute;z-index:10;background-color:#222}.brand-story .mockups .btn-wrapper button{padding:8px 20px;border:none;outline:none;border-radius:8px;font-family:poppins;font-weight:800}.management{background-color:#ebebf5;padding:32px 0px}.management h1{font-size:48px;margin-bottom:16px;font-weight:800;letter-spacing:1px;color:#67679b}.management .team-member{display:flex;flex-direction:column;align-items:center;padding:32px 0px;border-bottom:rgba(153,153,204,.1137254902) 2px solid}.management .team-member .m-image{padding:16px;padding:16px;display:flex;flex-direction:column}.management .team-member .m-image img{background-color:#99c;border-radius:16px;width:100%}.management .team-member .m-image a{display:block;width:100%;text-decoration:none}.management .team-member .m-image .linkedin-btn{margin-top:8px;display:flex;align-items:center;justify-content:center;width:100%;background-color:#99c;padding:8px 16px;color:#fff;border-radius:8px;font-weight:700}.management .team-member .m-image .linkedin-btn i{font-size:24px;margin-right:8px}.management .team-member .m-image .linkedin-btn p{font-size:12px}.management .team-member .m-info{padding:16px}.management .team-member .m-info h3{font-size:24px;margin-bottom:16px;font-weight:800;letter-spacing:1px}.management .team-member .m-info p{font-family:poppins;text-align:justify}.partners{padding:48px 0px}.partners .profiles{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;margin:16px 0px}.partners .profiles .profile{padding:16px;width:100%;margin:8px}.partners .profiles .profile p{margin-top:16px;font-family:poppins}.partners .profiles .p1{background-color:#ffd1cf}.partners .profiles .p2{background-color:#ffc8ad}.partners .profiles .p3{background-color:#ebebf5}.partners .value-add{margin-top:32px}.partners .value-add h1{font-size:48px;margin-bottom:16px;font-weight:800;letter-spacing:1px;color:#006837}.partners .value-add .value-wrapper{display:flex;flex-direction:column}.partners .value-add .value-wrapper .info{width:100%;padding:16px}.partners .value-add .value-wrapper .value-img{width:100%}.partners .value-add .value-wrapper .value-img img{width:100%;height:300px;-o-object-fit:cover;object-fit:cover}.why{padding:48px 0px}.why h1{font-size:48px;margin-bottom:16px;font-weight:800;letter-spacing:1px;color:#006837}.why .grid-container{display:grid;grid-template-columns:auto;gap:16px}.why .grid-container div{padding:48px 16px;background-color:rgba(255,255,255,.8);text-align:center}.why .grid-container div h3{font-size:16px;font-family:poppins}.why .grid-container div img{-o-object-fit:contain;object-fit:contain;height:80px;width:80px}.why .grid-container div p{font-size:14px}.contact{background-color:#d7f0db;padding:48px 0px}.contact h1{font-size:48px;font-weight:900;color:#006837}.contact .contact-wrapper{display:grid;grid-template-columns:auto;gap:16px;margin-top:16px}.contact .contact-wrapper .contact-card{display:flex;align-items:center;padding:16px;border-right:0px;border-bottom:#006837 2px solid}.contact .contact-wrapper .contact-card .con-image{width:30%;padding:16px}.contact .contact-wrapper .contact-card .con-image img{width:80px;height:80px;border-radius:50%;-o-object-fit:cover;object-fit:cover;background-color:#f6edd9}.contact .contact-wrapper .contact-card .con-info{padding-left:8px}.contact .contact-wrapper .contact-card .con-info a{color:#006837;font-size:16px;font-weight:800}.contact .whatsapp{margin-top:16px;padding-top:16px;border-top:#006837 0px solid;display:flex;align-items:center}.contact .whatsapp .whatsapp-img{height:100px;width:100px;margin-right:18px}.contact .whatsapp .whatsapp-img img{width:100%}.contact .whatsapp .number h1{font-family:"Poppins",sans-serif;font-weight:700;line-height:34px;font-size:32px}.contact .whatsapp .number p{font-size:16px;margin-left:8px;color:#006837;font-weight:600}}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    text-align: justify
+}
+
+.container {
+    width: 80%;
+    margin: auto
+}
+
+.contact-btn {
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #f6edd9;
+    font-weight: bold
+}
+
+nav {
+    padding: 16px;
+    display: flex;
+    background-color: #006837;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    z-index: 99999
+}
+
+nav .logo {
+    color: #fff;
+    display: flex;
+    align-items: center
+}
+
+nav .logo .logo-h {
+    height: 10vh;
+    margin-right: 10px
+}
+
+nav .logo .logo-v {
+    display: none
+}
+
+nav .logo p {
+    font-size: 16px;
+    font-weight: bold
+}
+
+nav .nav-links {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold
+}
+
+nav .nav-links .active {
+    border-bottom: 2px solid #fff
+}
+
+nav .burger {
+    display: none
+}
+
+nav .burger div {
+    margin: 8px 0px;
+    border-radius: 5px;
+    width: 35px;
+    height: 3px;
+    background: #fff
+}
+
+.section {
+    height: 1000px;
+    width: 100%
+}
+
+.hero {
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    background: url(./assets/BS-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.hero .container {
+    color: #006837;
+    padding: 10% 0%
+}
+
+.hero .container h1 {
+    font-size: 48px;
+    width: 60%;
+    font-weight: 800;
+    letter-spacing: 1px
+}
+
+.hero .container p {
+    width: 50%;
+    line-height: 150%;
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 24px
+}
+
+.hero .container .proof {
+    margin-top: 36px
+}
+
+.hero .container .client-wrapper {
+    margin-top: 100px
+}
+
+.hero .container .client-wrapper h4 {
+    margin-bottom: 8px
+}
+
+.hero .container .client-wrapper .clients {
+    border-top: #006837 2px solid;
+    padding-top: 32px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between
+}
+
+.hero .container .client-wrapper .clients .client {
+    height: 50px
+}
+
+.hero .container .client-wrapper .clients .client img {
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.hero .hero-date {
+    font-family: "Montserrat", sans-serif
+}
+
+.about-us {
+    background-color: #d7f0db;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-x: hidden
+}
+
+.about-us .content {
+    width: 60%;
+    padding: 10% 0%
+}
+
+.about-us .content h1 {
+    font-size: 72px;
+    margin-bottom: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #006837
+}
+
+.about-us .content p {
+    font-family: poppins;
+    text-align: justify
+}
+
+.about-us .image {
+    height: 850px;
+    overflow: hidden;
+    width: 40%;
+    background: pink
+}
+
+.about-us .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.vision {
+    padding: 48px 0px
+}
+
+.vision img {
+    width: 100%;
+    border-radius: 8px
+}
+
+.vision .vis-mis {
+    display: flex;
+    align-items: start
+}
+
+.vision .vis-mis .vis {
+    padding: 16px;
+    flex: 1
+}
+
+.vision .vis-mis .vis h1 {
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #006837
+}
+
+.vision .vis-mis .vis p {
+    font-family: poppins
+}
+
+.management {
+    background-color: #ebebf5;
+    padding: 48px 0px
+}
+
+.management h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #67679b
+}
+
+.management .team-member {
+    display: flex;
+    align-items: center;
+    padding: 32px 0px;
+    border-bottom: rgba(153, 153, 204, .1137254902) 2px solid
+}
+
+.management .team-member .m-image {
+    padding: 16px;
+    display: flex;
+    flex-direction: column
+}
+
+.management .team-member .m-image img {
+    background-color: #99c;
+    border-radius: 16px
+}
+
+.management .team-member .m-image a {
+    display: block;
+    width: 100%;
+    text-decoration: none
+}
+
+.management .team-member .m-image .linkedin-btn {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #99c;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 700
+}
+
+.management .team-member .m-image .linkedin-btn i {
+    font-size: 24px;
+    margin-right: 8px
+}
+
+.management .team-member .m-info {
+    padding: 16px
+}
+
+.management .team-member .m-info h3 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    font-weight: 800;
+    letter-spacing: 1px
+}
+
+.management .team-member .m-info p {
+    font-family: poppins
+}
+
+.brand-story {
+    padding: 48px 0px
+}
+
+.brand-story h1 {
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #006837
+}
+
+.brand-story p {
+    font-family: poppins
+}
+
+.brand-story .mockups {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative
+}
+
+.brand-story .mockups #myVideo {
+    width: 100%
+}
+
+.brand-story .mockups .btn-wrapper {
+    width: 100%;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    background-color: #222
+}
+
+.brand-story .mockups .btn-wrapper button {
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: poppins;
+    font-weight: 800
+}
+
+.partners {
+    padding: 48px 0px
+}
+
+.partners .profiles {
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 16px
+}
+
+.partners .profiles .profile {
+    padding: 16px;
+    width: 100%
+}
+
+.partners .profiles .profile img {
+    height: 50px
+}
+
+.partners .profiles .profile p {
+    margin-top: 16px;
+    font-family: poppins
+}
+
+.partners .profiles .p1 {
+    background-color: #ffd1cf
+}
+
+.partners .profiles .p2 {
+    background-color: #ffc8ad
+}
+
+.partners .profiles .p3 {
+    background-color: #ebebf5
+}
+
+.partners .profiles .p4 {
+    background-color: #d1ffd4
+}
+
+.partners .value-add {
+    margin-top: 32px
+}
+
+.partners .value-add h1 {
+    font-size: 72px;
+    margin-bottom: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #006837
+}
+
+.partners .value-add .value-wrapper {
+    display: flex
+}
+
+.partners .value-add .value-wrapper .info {
+    width: 60%;
+    padding: 16px
+}
+
+.partners .value-add .value-wrapper .value-img {
+    width: 40%
+}
+
+.partners .value-add .value-wrapper .value-img img {
+    width: 100%;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.why {
+    padding: 48px 0px
+}
+
+.why h1 {
+    font-size: 72px;
+    margin-bottom: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #006837
+}
+
+.why .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px
+}
+
+.why .grid-container div {
+    padding: 48px 16px;
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center
+}
+
+.why .grid-container div h3 {
+    font-size: 16px;
+    font-family: poppins
+}
+
+.why .grid-container div img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 80px;
+    width: 80px
+}
+
+.why .grid-container div p {
+    font-size: 14px
+}
+
+.contact {
+    background-color: #d7f0db;
+    padding: 100px 0px
+}
+
+.contact h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #006837
+}
+
+.contact .contact-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+    margin-top: 16px
+}
+
+.contact .contact-wrapper .contact-card {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-right: #006837 2px solid
+}
+
+.contact .contact-wrapper .contact-card .con-image {
+    width: 30%;
+    padding: 16px
+}
+
+.contact .contact-wrapper .contact-card .con-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-color: #f6edd9
+}
+
+.contact .contact-wrapper .contact-card .con-info {
+    padding-left: 8px
+}
+
+.contact .contact-wrapper .contact-card .con-info a {
+    color: #006837;
+    font-size: 16px;
+    font-weight: 800
+}
+
+.contact .whatsapp {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: #006837 2px solid;
+    display: flex;
+    align-items: center
+}
+
+.contact .whatsapp .whatsapp-img {
+    height: 100px;
+    width: 100px;
+    margin-right: 18px
+}
+
+.contact .whatsapp .whatsapp-img img {
+    width: 100%
+}
+
+.contact .whatsapp .number h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 64px;
+    font-size: 48px
+}
+
+.contact .whatsapp .number p {
+    font-size: 16px;
+    margin-left: 8px;
+    color: #006837;
+    font-weight: 600
+}
+
+.footer {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px
+}
+
+.footer p {
+    color: #fff;
+    font-size: 16px
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        overflow-x: hidden
+    }
+
+    nav {
+        position: relative;
+        position: fixed;
+        background: #006837;
+        height: 10vh;
+        z-index: 1
+    }
+
+    nav .logo p {
+        display: none
+    }
+
+    nav .logo .logo-h {
+        display: none
+    }
+
+    nav .logo .logo-v {
+        display: block;
+        height: 10vh;
+        margin-right: 10px
+    }
+
+    nav .nav-links {
+        display: none;
+        background: #006837;
+        position: absolute;
+        right: 0px;
+        top: 8vh;
+        width: 50%;
+        height: 92vh;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: all .5s ease
+    }
+
+    nav .nav-links li {
+        opacity: 0
+    }
+
+    nav .nav-active {
+        transform: translateX(0%);
+        display: flex
+    }
+
+    nav .burger {
+        display: block;
+        cursor: pointer
+    }
+
+    nav .burger div {
+        transition: all .5s ease
+    }
+
+    @keyframes navlinksFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px)
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0px)
+        }
+    }
+
+    nav .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px, 10px)
+    }
+
+    nav .toggle .line2 {
+        opacity: 0
+    }
+
+    nav .toggle .line3 {
+        transform: rotate(45deg) translate(-5px, -10px)
+    }
+
+    .container {
+        width: 95%
+    }
+
+    .hero {
+        height: 100vh;
+        min-height: 100%;
+        padding-top: 20%
+    }
+
+    .hero .container {
+        width: 95%
+    }
+
+    .hero .container h1 {
+        font-size: 32px;
+        width: 100%
+    }
+
+    .hero .container p {
+        margin-top: 20px;
+        font-size: 14px;
+        width: 100%
+    }
+
+    .hero .container .client-wrapper {
+        margin-top: 100px
+    }
+
+    .hero .container .client-wrapper h4 {
+        margin-bottom: 8px
+    }
+
+    .hero .container .client-wrapper .clients {
+        border-top: #006837 2px solid;
+        padding-top: 32px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+
+    .hero .container .client-wrapper .clients .client {
+        padding: 8px
+    }
+
+    .about-us {
+        background-color: #d7f0db;
+        display: block;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .about-us .content {
+        width: 100%;
+        padding-top: 32px
+    }
+
+    .about-us .content h1 {
+        font-size: 32px;
+        margin-bottom: 16px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #006837
+    }
+
+    .about-us .content p {
+        font-family: poppins;
+        text-align: justify
+    }
+
+    .about-us .image {
+        margin-top: 16px;
+        width: 100%;
+        height: 50vh;
+        overflow: hidden
+    }
+
+    .about-us .image img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center
+    }
+
+    .vision {
+        padding: 48px 0px
+    }
+
+    .vision img {
+        width: 100%;
+        border-radius: 4px
+    }
+
+    .vision .vis-mis {
+        display: flex;
+        flex-direction: column;
+        align-items: start
+    }
+
+    .vision .vis-mis .vis {
+        padding: 16px
+    }
+
+    .vision .vis-mis .vis h1 {
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #006837
+    }
+
+    .vision .vis-mis .vis p {
+        font-family: poppins;
+        text-align: justify
+    }
+
+    .brand-story {
+        padding: 48px 0px
+    }
+
+    .brand-story h1 {
+        font-size: 48px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #006837
+    }
+
+    .brand-story p {
+        font-family: poppins
+    }
+
+    .brand-story .mockups {
+        margin-top: 10px;
+        overflow: hidden;
+        position: relative
+    }
+
+    .brand-story .mockups #myVideo {
+        width: 100%
+    }
+
+    .brand-story .mockups .btn-wrapper {
+        width: 100%;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        z-index: 10;
+        background-color: #222
+    }
+
+    .brand-story .mockups .btn-wrapper button {
+        padding: 8px 20px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        font-family: poppins;
+        font-weight: 800
+    }
+
+    .management {
+        background-color: #ebebf5;
+        padding: 32px 0px
+    }
+
+    .management h1 {
+        font-size: 48px;
+        margin-bottom: 16px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #67679b
+    }
+
+    .management .team-member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 0px;
+        border-bottom: rgba(153, 153, 204, .1137254902) 2px solid
+    }
+
+    .management .team-member .m-image {
+        padding: 16px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column
+    }
+
+    .management .team-member .m-image img {
+        background-color: #99c;
+        border-radius: 16px;
+        width: 100%
+    }
+
+    .management .team-member .m-image a {
+        display: block;
+        width: 100%;
+        text-decoration: none
+    }
+
+    .management .team-member .m-image .linkedin-btn {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #99c;
+        padding: 8px 16px;
+        color: #fff;
+        border-radius: 8px;
+        font-weight: 700
+    }
+
+    .management .team-member .m-image .linkedin-btn i {
+        font-size: 24px;
+        margin-right: 8px
+    }
+
+    .management .team-member .m-image .linkedin-btn p {
+        font-size: 12px
+    }
+
+    .management .team-member .m-info {
+        padding: 16px
+    }
+
+    .management .team-member .m-info h3 {
+        font-size: 24px;
+        margin-bottom: 16px;
+        font-weight: 800;
+        letter-spacing: 1px
+    }
+
+    .management .team-member .m-info p {
+        font-family: poppins;
+        text-align: justify
+    }
+
+    .partners {
+        padding: 48px 0px
+    }
+
+    .partners .profiles {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        margin: 16px 0px
+    }
+
+    .partners .profiles .profile {
+        padding: 16px;
+        width: 100%;
+        margin: 8px
+    }
+
+    .partners .profiles .profile p {
+        margin-top: 16px;
+        font-family: poppins
+    }
+
+    .partners .profiles .p1 {
+        background-color: #ffd1cf
+    }
+
+    .partners .profiles .p2 {
+        background-color: #ffc8ad
+    }
+
+    .partners .profiles .p3 {
+        background-color: #ebebf5
+    }
+
+    .partners .value-add {
+        margin-top: 32px
+    }
+
+    .partners .value-add h1 {
+        font-size: 48px;
+        margin-bottom: 16px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #006837
+    }
+
+    .partners .value-add .value-wrapper {
+        display: flex;
+        flex-direction: column
+    }
+
+    .partners .value-add .value-wrapper .info {
+        width: 100%;
+        padding: 16px
+    }
+
+    .partners .value-add .value-wrapper .value-img {
+        width: 100%
+    }
+
+    .partners .value-add .value-wrapper .value-img img {
+        width: 100%;
+        height: 300px;
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+
+    .why {
+        padding: 48px 0px
+    }
+
+    .why h1 {
+        font-size: 48px;
+        margin-bottom: 16px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #006837
+    }
+
+    .why .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 16px
+    }
+
+    .why .grid-container div {
+        padding: 48px 16px;
+        background-color: rgba(255, 255, 255, .8);
+        text-align: center
+    }
+
+    .why .grid-container div h3 {
+        font-size: 16px;
+        font-family: poppins
+    }
+
+    .why .grid-container div img {
+        -o-object-fit: contain;
+        object-fit: contain;
+        height: 80px;
+        width: 80px
+    }
+
+    .why .grid-container div p {
+        font-size: 14px
+    }
+
+    .contact {
+        background-color: #d7f0db;
+        padding: 48px 0px
+    }
+
+    .contact h1 {
+        font-size: 48px;
+        font-weight: 900;
+        color: #006837
+    }
+
+    .contact .contact-wrapper {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 16px;
+        margin-top: 16px
+    }
+
+    .contact .contact-wrapper .contact-card {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        border-right: 0px;
+        border-bottom: #006837 2px solid
+    }
+
+    .contact .contact-wrapper .contact-card .con-image {
+        width: 30%;
+        padding: 16px
+    }
+
+    .contact .contact-wrapper .contact-card .con-image img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background-color: #f6edd9
+    }
+
+    .contact .contact-wrapper .contact-card .con-info {
+        padding-left: 8px
+    }
+
+    .contact .contact-wrapper .contact-card .con-info a {
+        color: #006837;
+        font-size: 16px;
+        font-weight: 800
+    }
+
+    .contact .whatsapp {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: #006837 0px solid;
+        display: flex;
+        align-items: center
+    }
+
+    .contact .whatsapp .whatsapp-img {
+        height: 100px;
+        width: 100px;
+        margin-right: 18px
+    }
+
+    .contact .whatsapp .whatsapp-img img {
+        width: 100%
+    }
+
+    .contact .whatsapp .number h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 34px;
+        font-size: 32px
+    }
+
+    .contact .whatsapp .number p {
+        font-size: 16px;
+        margin-left: 8px;
+        color: #006837;
+        font-weight: 600
+    }
+}
