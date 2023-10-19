@@ -116,7 +116,10 @@ nav{
         }
         .client-wrapper{
             margin-top: 100px;
-    
+            background-color: #CCE1D7;
+            padding: 20px;
+            width: fit-content;
+            border-radius: 16px;
             h4{
                 margin-bottom: 8px;
             }
@@ -124,7 +127,7 @@ nav{
                 border-top: #006837 2px solid;
                 padding-top: 32px;
                 display: flex;
-                width: 70%;
+                width: 100%;
                 
                 align-items: center;
                 justify-content: space-between;
@@ -132,7 +135,7 @@ nav{
 
                 .client{
                     height: 50px;
-                    
+                    margin-right: 50px;
                     img{
                         height: 100%;
                         object-fit: contain;
@@ -207,14 +210,14 @@ nav{
 
 }
 .management{
-    background-color: #EBEBF5;
+    background-color: #D7F0DB;
     padding: 48px 0px;
     h1{
         font-size: 48px;
         margin-bottom: 16px;
         font-weight: 800;
         letter-spacing: 1px;  
-        color: #67679b;
+        color: #006837;
     }
     .team-member{
         display: flex;
@@ -226,7 +229,7 @@ nav{
            display: flex;
            flex-direction: column;
             img{
-                background-color: #9999CC;
+                background-color: #AACDBC;
                 border-radius: 16px;
             }
             a{
@@ -240,11 +243,12 @@ nav{
                 align-items: center;
                 justify-content: center;
                 width: 100%;
-                background-color: #9999CC;
+                background-color: #39B54A;
                 padding: 8px 16px;
                 color: white;
                 border-radius: 8px;
                 font-weight: 700;
+                font-size: 14px;
                 i{
                     font-size: 24px;
                     margin-right: 8px;
@@ -269,7 +273,60 @@ nav{
         
 
     }
+    .arti{
+        display: flex;
+        align-items: center;
+        padding: 32px 0px;
+        border-bottom: #9999cc1d 2px solid;
+        .m-image{
+            padding: 16px;
+           display: flex;
+           flex-direction: column;
+            img{
+                background-color: #AACDBC;
+                border-radius: 16px;
+            }
+            a{
+                display: block;
+                width: 100%;
+                text-decoration: none;
+            }
+            .linkedin-btn{
+                margin-top: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                background-color: #39B54A;
+                padding: 8px 16px;
+                color: white;
+                border-radius: 8px;
+                font-weight: 700;
+                font-size: 14px;
+                i{
+                    font-size: 24px;
+                    margin-right: 8px;
+                }
+            }
+        }
+        .m-info{
+            padding: 16px;
+            h3{
+                font-size: 36px;
+               margin-bottom: 16px;
+                font-weight: 800;
+                letter-spacing: 1px;  
+             
+            }
+            p{
+                font-family: poppins;
+                
+            }
+           
+        }
+        
 
+    }
 }
 
 .brand-story{
@@ -598,13 +655,15 @@ nav{
             }
             .client-wrapper{
                 margin-top: 100px;
-    
+                padding: 10px;
+                width: fit-content;
+                border-radius: 16px;
                 h4{
                     margin-bottom: 8px;
                 }
                 .clients{
                     border-top: #006837 2px solid;
-                    padding-top: 32px;
+                    padding-top: 16px;
                     display: flex;
                     width: 100%;
                     align-items: center;
@@ -612,6 +671,10 @@ nav{
                     flex-wrap: wrap;
                     .client{
                         padding: 8px;
+                        margin: 10px 0px;
+                        img{
+                            width: 150px;
+                        }
                     }
                 }
             }
@@ -723,28 +786,29 @@ nav{
         }
     }
     .management{
-        background-color: #EBEBF5;
+    
         padding: 32px 0px;
         h1{
             font-size: 48px;
             margin-bottom: 16px;
             font-weight: 800;
             letter-spacing: 1px;  
-            color: #67679b;
+          
         }
-        .team-member{
+        .arti{
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             align-items: center;
             padding: 32px 0px;
             border-bottom: #9999cc1d 2px solid;
+
             .m-image{
                 padding: 16px;
                 padding: 16px;
                display: flex;
                flex-direction: column;
                 img{
-                    background-color: #9999CC;
+                   
                     border-radius: 16px;
                     width: 100%;
                 }
@@ -759,7 +823,65 @@ nav{
                     align-items: center;
                     justify-content: center;
                     width: 100%;
-                    background-color: #9999CC;
+                  
+                    padding: 8px 16px;
+                    color: white;
+                    border-radius: 8px;
+                    font-weight: 700;
+                    i{
+                        font-size: 24px;
+                        margin-right: 8px;
+                    }
+                    p{
+                        font-size: 12px;
+                       
+                    }
+                }
+            }
+            .m-info{
+                padding: 16px;
+                h3{
+                    font-size: 24px;
+                   margin-bottom: 16px;
+                    font-weight: 800;
+                    letter-spacing: 1px;  
+                 
+                }
+                p{
+                    font-family: poppins;
+                    text-align: justify;
+                }
+               
+            }
+        }
+        .team-member{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px 0px;
+            border-bottom: #9999cc1d 2px solid;
+            .m-image{
+                padding: 16px;
+                padding: 16px;
+               display: flex;
+               flex-direction: column;
+                img{
+                   
+                    border-radius: 16px;
+                    width: 100%;
+                }
+                a{
+                    display: block;
+                    width: 100%;
+                    text-decoration: none;
+                }
+                .linkedin-btn{
+                    margin-top: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                  
                     padding: 8px 16px;
                     color: white;
                     border-radius: 8px;
