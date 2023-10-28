@@ -86,7 +86,7 @@ nav{
   }
   
 .hero{
-    height: 100vh;
+    height: 110vh;
     min-height: 100%;
     width: 100%;
     background: url(./assets/BS-bg.png);
@@ -116,7 +116,7 @@ nav{
         }
         .client-wrapper{
             margin-top: 100px;
-            background-color: #CCE1D7;
+            background-color: #abcbbb;
             padding: 20px;
             width: fit-content;
             border-radius: 16px;
@@ -406,7 +406,7 @@ nav{
             background-color: #EBEBF5;
         }
         .p4{
-            background-color: #d1ffd4;
+            background-color: #abcbbb;
         }
     }
     .value-add{
@@ -557,7 +557,79 @@ nav{
         font-size: 16px;
     }
 }
-
+@media screen and (max-width: 1100px) {
+    .contact{
+        background-color: #D7F0DB;
+        padding: 100px 0px;
+        h1{
+            font-size: 72px;
+            font-weight: 900;
+            color: #006837;
+        }
+       .contact-wrapper{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 24px;
+        margin-top: 16px;
+    
+        .contact-card{
+            display: flex;
+            align-items: center;
+            padding: 16px;
+            border-right: #006837 2px solid;
+            .con-image{
+                width: 30%;
+                padding: 16px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    background-color: #F6EDD9;
+                }
+            }
+            .con-info{
+                padding-left: 8px;
+                a{
+                    color: #006837;
+                    font-size: 16px;
+                    font-weight: 800;
+                }
+            }
+        }
+       }
+       .whatsapp{
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: #006837 2px solid;
+        display: flex;
+        align-items: center;
+        .whatsapp-img{
+            height: 100px;
+            width: 100px;
+            margin-right: 18px;
+            img{
+                width: 100%;
+            }
+        }
+        .number{
+            h1{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                line-height: 64px;
+                font-size: 48px;
+            }
+            p{
+                font-size: 16px;
+                margin-left: 8px;
+                color: #006837;
+                font-weight: 600;
+            }
+        }
+       }
+      
+    }
+}
 
 @media screen and (max-width: 991px) {
     body{
@@ -638,7 +710,7 @@ nav{
         width: 95%;
     }
     .hero{
-        height: 100vh;
+        height: 130vh;
         min-height: 100%;
         padding-top: 20%;
         .container{
